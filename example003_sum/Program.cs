@@ -1,5 +1,7 @@
-﻿int numberA=3;
-int numberB=5;
+﻿int numberA=new Random().Next(1,10); // случайное число;
+Console.WriteLine(numberA);// выводим случайное число на экран
+int numberB=new Random().Next(1,10); // случайное число;
+Console.WriteLine(numberB);
 Console.WriteLine(numberA+numberB);
 
 
