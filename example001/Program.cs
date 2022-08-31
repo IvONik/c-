@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿console.writeline("enter your name");
+string username = console.readline();
+console.writeline ("hello,");
+console.writeline(username)
